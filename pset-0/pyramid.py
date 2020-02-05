@@ -34,7 +34,8 @@ def print_pyramid(rows):
                 line += '='
             else:
                 line += '-'
-        print(line, "\n")
+        # print(line, "\n")
+        print(line)
 
 
 if __name__ == "__main__":

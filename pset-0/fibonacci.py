@@ -14,6 +14,8 @@ def last_8(some_int):
     except ValueError:
         print("That was not a valid number")
 
+    return last8
+
 
 def optimized_fibonacci(f):
     """ Return fibonacci sequence number at position f
@@ -57,7 +59,7 @@ class SummableSequence(object):
 
 if __name__ == "__main__":
 
-    print("f(100000)[-8:]", last_8(optimized_fibonacci(100000)))
+    print("f(1000000)[-8:]", last_8(optimized_fibonacci(1000000)))
 
     new_seq = SummableSequence(5, 7, 11)
-    print("new_seq(100000)[-8:]:", last_8(new_seq(100000)))
+    print("new_seq(1000000)[-8:]:", last_8(new_seq(1000000)))
