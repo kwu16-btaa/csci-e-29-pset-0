@@ -2,7 +2,7 @@
 
 Replace these with your own build badges!
 
-[![Build Status](https://travis-ci.com/csci-e-29/2019fa-pset-0-kwu16-btaa.png?branch=master)](https://travis-ci.com/csci-e-29/2019fa-pset-0-kwu16-btaa/builds/148648216)
+[![Build Status](https://travis-ci.com/csci-e-29/2019fa-pset-0-kwu16-btaa.svg?token=A31tHQsJRDudZrbA3N2F&branch=master)](https://travis-ci.com/csci-e-29/2019fa-pset-0-kwu16-btaa/builds/148648216)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/aaaaa/maintainability)](https://codeclimate.com/repos/aaaaa/maintainability)
 
