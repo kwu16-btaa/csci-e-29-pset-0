@@ -6,7 +6,8 @@ Replace these with your own build badges!
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/aaaaa/maintainability)](https://codeclimate.com/repos/aaaaa/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/aaaaa/test_coverage)](https://codeclimate.com/repos/aaaaa/test_coverage)
+[![Test Coverage](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)
+
 
 ## Objectives
 
