@@ -17,24 +17,18 @@ def print_pyramid(rows):
 
     :param int rows: total height
     """
-    # number of characters to be printed on each line
-    num_char = 2 * rows - 1
+    if (isinstance(rows, int) is False) or (rows <= 0):
+        print('Please enter number greater than 0')
+        return
 
-    for i in range(rows):
+    for i in range(1, rows + 1):
         # line to be printed
-        line = ""
-        # starting position of the pyramid stones
-        # starting position of the reverse of row count
-        # i.e. the starting position of first row is the largest and starting position of last row is 0
-        # e.q. if rows = 3, the starting position of 1st row is 2, for 3rd row, it is 0
-        start_pos = rows - i - 1
-        num_stones = 2 * (i + 1) - 1
-        for j in range(num_char):
-            if (j >= start_pos) and (j < start_pos + num_stones):
-                line += '='
-            else:
-                line += '-'
-        # print(line, "\n")
+
+        # number of dashes on each side
+        num_dashes = rows - i
+
+        line = "-" * num_dashes + "=" * (2*i - 1) + "-" * num_dashes
+
         print(line)
 
 
